@@ -1,6 +1,13 @@
+# Core requirements
 pandas>=1.5.0,<2.0.0
 streamlit>=1.12.0
-markdown-it-py>=2.2.0
-rich>=13.0.0
-Pygments>=2.13.0
-mduri>=0.1.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+scikit-learn>=1.0.0
+
+# Pinned dependency versions to prevent conflicts
+markdown-it-py==2.2.0
+rich==13.7.0
+Pygments==2.15.1
+mdurl==0.1.0
