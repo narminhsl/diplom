@@ -654,7 +654,7 @@ def summarize_forecast(results: Dict[str, pd.DataFrame]) -> pd.DataFrame:
         })
     return pd.DataFrame(rows).sort_values('Scenario').reset_index(drop=True)
 
-def prettify_forecast_table(tidy: pd.DataFrame) -> pd.io.formats.style.Styler:
+def prettify_forecast_table(tidy: pd.DataFrame) -> pd.DataFrame.style:
     """
     Clean “Numbers behind the charts” table: percent formatting + a compact range column.
     """
